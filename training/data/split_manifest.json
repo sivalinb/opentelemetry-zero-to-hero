@@ -1,0 +1,326 @@
+[
+  {
+    "family": "teach-27",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain The N+1 query pattern"
+  },
+  {
+    "family": "teach-5",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Trace IDs and span IDs"
+  },
+  {
+    "family": "teach-11",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Semantic conventions make fields comparable"
+  },
+  {
+    "family": "teach-16",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Error status and exception events"
+  },
+  {
+    "family": "teach-26",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Useful context with explicit boundaries"
+  },
+  {
+    "family": "teach-12",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain A counter counts additions"
+  },
+  {
+    "family": "teach-20",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Read and validate the YAML"
+  },
+  {
+    "family": "teach-15",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Correlate logs with trace context"
+  },
+  {
+    "family": "teach-10",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Resource identity describes the producer"
+  },
+  {
+    "family": "teach-14",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain A histogram describes a distribution"
+  },
+  {
+    "family": "teach-19",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Batching and memory limits"
+  },
+  {
+    "family": "teach-22",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Respect the parent's decision"
+  },
+  {
+    "family": "teach-9",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain API, SDK, and exporter"
+  },
+  {
+    "family": "teach-29",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Before and after with the same question"
+  },
+  {
+    "family": "teach-24",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Cardinality multiplies combinations"
+  },
+  {
+    "family": "teach-6",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Context is more than a variable name"
+  },
+  {
+    "family": "teach-25",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Redaction must match the data location"
+  },
+  {
+    "family": "teach-0",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Programs, processes, and services"
+  },
+  {
+    "family": "teach-31",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Restore the dependency, preserve observation"
+  },
+  {
+    "family": "teach-13",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain A gauge describes a current value"
+  },
+  {
+    "family": "teach-18",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Receivers, processors, and exporters"
+  },
+  {
+    "family": "teach-2",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain OpenTelemetry's place in the system"
+  },
+  {
+    "family": "teach-17",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Symptoms and causes across services"
+  },
+  {
+    "family": "teach-21",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Head sampling chooses early"
+  },
+  {
+    "family": "teach-3",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain A span is one operation"
+  },
+  {
+    "family": "teach-30",
+    "split": "train",
+    "label": "teach",
+    "seed": "Explain Follow the evidence end to end"
+  },
+  {
+    "family": "teach-4",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Duration and overlapping work"
+  },
+  {
+    "family": "teach-28",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Critical path versus busiest service"
+  },
+  {
+    "family": "teach-32",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Explain what you demonstrated"
+  },
+  {
+    "family": "teach-8",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Baggage and propagation boundaries"
+  },
+  {
+    "family": "teach-23",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Tail sampling needs later evidence"
+  },
+  {
+    "family": "teach-1",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain Logs, metrics, and traces"
+  },
+  {
+    "family": "teach-7",
+    "split": "validation",
+    "label": "teach",
+    "seed": "Explain The traceparent header"
+  },
+  {
+    "family": "lab-9",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Find inefficient work"
+  },
+  {
+    "family": "lab-3",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Instrument Python with meaningful identity"
+  },
+  {
+    "family": "lab-10",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Recover a checkout incident"
+  },
+  {
+    "family": "lab-8",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Privacy and cardinality"
+  },
+  {
+    "family": "lab-0",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for What happens when you click Buy?"
+  },
+  {
+    "family": "lab-7",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Sampling without losing the story"
+  },
+  {
+    "family": "lab-1",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for A request becomes a trace"
+  },
+  {
+    "family": "lab-2",
+    "split": "train",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Context crosses a boundary"
+  },
+  {
+    "family": "lab-4",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Counters, gauges, and histograms"
+  },
+  {
+    "family": "lab-5",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Logs and errors belong to a journey"
+  },
+  {
+    "family": "lab-6",
+    "split": "validation",
+    "label": "lab",
+    "seed": "Help interpret my lab evidence for Build a Collector pipeline"
+  },
+  {
+    "family": "clarify-2",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Fix it"
+  },
+  {
+    "family": "clarify-7",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Help"
+  },
+  {
+    "family": "clarify-1",
+    "split": "train",
+    "label": "clarify",
+    "seed": "What does that mean?"
+  },
+  {
+    "family": "clarify-8",
+    "split": "train",
+    "label": "clarify",
+    "seed": "What about it?"
+  },
+  {
+    "family": "clarify-3",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Tell me something"
+  },
+  {
+    "family": "clarify-0",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Explain the thing"
+  },
+  {
+    "family": "clarify-6",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Go on"
+  },
+  {
+    "family": "clarify-4",
+    "split": "train",
+    "label": "clarify",
+    "seed": "Which one should I use?"
+  },
+  {
+    "family": "clarify-9",
+    "split": "validation",
+    "label": "clarify",
+    "seed": "Do that"
+  },
+  {
+    "family": "clarify-5",
+    "split": "validation",
+    "label": "clarify",
+    "seed": "I am lost"
+  }
+]

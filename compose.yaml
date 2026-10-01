@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    ports:
+    - 127.0.0.1:8522:8501
+    volumes:
+    - academy-progress:/app/.runtime
+  collector:
+    image: otel/opentelemetry-collector-contrib:0.161.0
+    command:
+    - --config=/etc/otelcol/config.yaml
+    volumes:
+    - ./examples/collector-container.yaml:/etc/otelcol/config.yaml:ro
+    ports:
+    - 127.0.0.1:4318:4318
+volumes:
+  academy-progress: {}
